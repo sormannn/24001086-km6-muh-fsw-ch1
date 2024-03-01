@@ -67,6 +67,8 @@ header li {
   display: none;
 }
 
+
+
 .register {
   border-radius: 2px;
   color: white !important;
@@ -116,6 +118,10 @@ header li {
   background-color: #5CB85F;
 }
 
+.top-wrapper-content {
+  width: 100%;
+}
+
 .top-wrapper-content img {
     float:right;
     width: 50%;
@@ -163,7 +169,7 @@ header li {
 }
 
 .service-wrapper-card span {
-  margin-right: 6px;
+  margin-right: 16px;
 }
 
 .why-wrapper {
@@ -287,4 +293,80 @@ margin-bottom: 16px;
   display: inline-block;
   padding: 8px 12px; /* Menggunakan spasi sebagai pemisah nilai padding */
   background-color: #5CB85F;
+}
+
+
+
+.testimonial-wrapper {
+  margin-bottom: 100px;
+}
+
+.testimonial-wrapper h2, p {
+  text-align: center;
+}
+
+.testimonial-wrapper h2 {
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  margin-bottom: 16px;
+}
+
+.testimonial-wrapper p {
+
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-bottom: 40px;
+
+}
+
+#carouselExample {
+  margin: 0 auto;
+  width: 832px;
+  height: 270px;
+  border-radius: 8px;
+  background-color: #F1F3FF;
+  height: 270px;
+  padding: 69px 150px;
+}
+
+#carouselExample p {
+  text-align: left;
+}
+
+
+#carouselExample img {
+  float: left;
+}
+
+.pfp {
+  margin-right: 40px;
+}
+
+.testimonial-txt p {
+  margin-bottom: 8px;
+}
+
+.testimonial-txt p:last-child {
+  margin:0px;
+}
+
+.carousel-item {
+}
+
+.carousel-control-prev-icon {
+  background-image: url("assets/landing-page/fi_chevron-left.svg");
+  width: 56.77px;
+  height: 68px;
+
+}
+
+.carousel-control-next-icon {
+  background-image: url("assets/landing-page/fi_chevron-right.svg");
+  width: 56.77px;
+  height: 68px;
 }
