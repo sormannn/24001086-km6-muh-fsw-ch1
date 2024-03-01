@@ -90,4 +90,21 @@
         height: 392px;
         padding: 40px 32px;
       }
+
+
+      .accordion-wrapper {
+        text-align: center;
+      }
+
+      .accordion-wrapper p {
+        margin-bottom: 16px;
+      }
+
+      .accordion {
+        width:100%;
+      }
+
+      .footer1, .footer2, .footer3, .footer4 {
+        margin-bottom: 16px;
+      }
 }
