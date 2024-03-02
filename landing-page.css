@@ -458,3 +458,10 @@ margin-bottom: 16px;
 
 
  }
+
+ .btn {
+  float: right;
+  display: none;
+  background-color: transparent;
+  border: none;
+ }

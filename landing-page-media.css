@@ -107,4 +107,35 @@
       .footer1, .footer2, .footer3, .footer4 {
         margin-bottom: 16px;
       }
+
+      .btn {
+        display: block;
+      }
+
+      .offcanvas.show {
+        width: 50%;
+        padding: 32px 24px 16px 16px;
+      }
+      
+      
+
+      .offcanvas.show h5 {
+
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+
+      }
+
+      .offcanvas-body a{
+        display: inline-block;
+        margin-bottom:16px;
+      }
+
+      
+
+    
+
+
 }
